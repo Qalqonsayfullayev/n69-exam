@@ -1,0 +1,161 @@
+.hero-section {
+  padding: 109px 0;
+}
+
+.dalnego__voct {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dalnego__voct-div {
+  padding-top: 81px;
+}
+
+.dalnego__voct-text {
+  width: 100%;
+  height: 119px;
+  top: 190px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Exo 2;
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: left;
+}
+
+.dalnego__voct-stext {
+  width: 100%;
+  height: 66px;
+  top: 349px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: $clr-grey;
+  margin: 40px 0 40px 0;
+}
+
+.dalnego__voct-link {
+  width: 100%;
+  height: 17px;
+  top: 455px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: $clr-black;
+  border-bottom: 3px solid $clr-yellow;
+}
+
+.dalnego__img-tablet,
+.dalnego__img-mobile {
+  display: none;
+}
+
+//tablet start
+
+@media (max-width: 1218px) {
+  .dalnego__voct {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .dalnego__img {
+    display: none;
+  }
+
+  .dalnego__img-tablet {
+    display: block;
+    margin-top: 73px;
+    align-items: center;
+    height: 400px;
+  }
+
+  .dalnego__voct-div {
+    padding-top: 0px;
+  }
+
+  .dalnego__voct-stext {
+    text-align: center;
+  }
+
+  .dalnego__voct-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .dalnego__img-tablet {
+    height: 314px;
+  }
+}
+
+//mobile start
+@media (max-width: 600px) {
+  .dalnego__img-tablet {
+    display: none;
+  }
+
+  .dalnego__img-mobile {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    height: 300px;
+  }
+
+  .dalnego__voct-stext {
+    text-align: center;
+    font-family: PT Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+    margin: 32px 0;
+  }
+
+  .dalnego__voct-text {
+    text-align: center;
+    font-family: Exo 2;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+    height: 32px;
+  }
+
+  .hero-section {
+    padding: 75px 0;
+  }
+}
+
+@media (max-width: 380px) {
+    .dalnego__img-mobile {
+        display: block;
+        width: 100%;
+        margin-top: 40px;
+        height: 253px;
+      }
+
+      .dalnego__voct-stext {
+        text-align: center;
+        font-family: PT Sans;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+        text-align: left;
+        margin: 62px 0;
+      }
+}  

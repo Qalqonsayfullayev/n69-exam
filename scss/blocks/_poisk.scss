@@ -1,0 +1,123 @@
+.posk-section {
+  padding-bottom: 67px;
+}
+
+.poisk__tavar {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d7d7dd;
+}
+
+.poisk__tavar-li {
+  padding: 40px 0 56px 80px;
+}
+
+.poisk__tavar-div {
+  border-right: 1px solid #d7d7dd;
+  padding-right: 85px;
+}
+
+.poisk__tavar-sec {
+  padding-right: 85px;
+}
+.poisk__tavar-img {
+  width: 92px;
+  height: 92px;
+  top: 721px;
+  left: 180px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.poisk__tavar-text {
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  margin: 24px 0 16px 0;
+}
+
+.poisk__tavar-stext {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: $clr-grey;
+}
+
+//tablet start
+
+@media (max-width: 1112px) {
+  .poisk__tavar {
+    display: block;
+    border: 0;
+  }
+
+  .poisk__tavar-div,
+  .poisk__tavar-sec {
+    display: flex;
+    gap: 32px;
+    padding: 32px 0 47px 32px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px 0px #0000001f;
+    margin-top: 16px;
+  }
+
+  .poisk__tavar-text {
+    font-family: Exo 2;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+    margin: 24px 0 16px 0;
+  }
+
+  .poisk__tavar-stext {
+    width: 394px;
+    font-family: PT Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: $clr-grey;
+  }
+
+  .poisk__tavar-li {
+    padding: 0;
+  }
+}
+
+//mobile start
+
+@media (max-width: 640px) {
+  .poisk__tavar-div,
+  .poisk__tavar-sec {
+    display: block;
+    gap: 32px;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: -1px;
+  }
+
+  .poisk__tavar {
+    box-shadow: 0px 4px 20px 0px #00000026;
+  }
+  .poisk__tavar-stext {
+    width: 100%;
+    font-family: PT Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+  }
+
+  .poisk__tavar-text {
+    font-family: Exo 2;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.3px;
+    text-align: left;
+  }
+}
