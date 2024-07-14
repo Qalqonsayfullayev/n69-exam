@@ -55,6 +55,13 @@
   text-align: left;
   color: $clr-black;
   border-bottom: 3px solid $clr-yellow;
+  transition: all 0.4s linear;
+
+  &:hover {
+    background: $clr-yellow;
+    color: $clr-greenlight;
+
+  }
 }
 
 .dalnego__img-tablet,

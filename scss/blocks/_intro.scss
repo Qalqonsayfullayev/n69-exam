@@ -1,0 +1,33 @@
+.intro__img-tablet, .intro__img-mobile{
+    display: none;
+}
+
+.intro__img-desktop{
+    width: 100%;
+}
+
+//tablet start
+
+@media (max-width:700px) {
+    .intro__img-desktop{
+        display: block;
+        width: 100%;
+    }
+
+    .intro__img-tablet{
+        display: none;
+    }
+}
+
+//tablet start
+
+@media (max-width:500px) {
+    .intro__img-desktop{
+        display: block;
+        width: 100%;
+    }
+
+    .intro__img-mobile{
+        display: none;
+    }
+}

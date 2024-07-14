@@ -1,0 +1,91 @@
+.etap-section {
+  padding: 80px 0 62px 0;
+}
+
+.etap-h2 {
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.etap__sec {
+  display: block;
+  justify-content: space-between;
+  padding: 0 49px;
+}
+
+.etap__ot {
+  box-shadow: 0px 4px 15px 0px #0000001f;
+  padding: 32px 0 32px 96px;
+  border-radius: 15px;
+  display: flex;
+  gap: 56px;
+  margin-top: 24px;
+}
+
+.etap__ot-text {
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+}
+
+.etap__ot-line {
+  border: 1px solid $clr-yellow;
+  width: 86px;
+  height: 0px;
+  top: 2828px;
+  left: 632px;
+  gap: 0px;
+  border: 3px 0px 0px 0px;
+  opacity: 0px;
+  margin: 24px 0;
+}
+
+.etap__ot-stext {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: $clr-grey;
+  width: 538px;
+  height: 88px;
+  top: 2852px;
+  left: 632px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+//tablet start 
+
+@media (max-width:1056px) {
+    .etap__ot-stext {
+        width: 100%;
+    }
+}
+
+@media (max-width:910px) {
+    .etap__ot-img {
+        display: none;
+    }
+
+    .etap__ot{
+        padding: 40px 76px 48px 85px;
+    }
+
+    .etap__sec {
+        padding: 0;
+      }
+      
+}
+
+@media (max-width:636px) {
+    .etap-section {
+        display: none;
+    }
+}

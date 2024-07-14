@@ -1,0 +1,150 @@
+.site-footer {
+  background-color: $clr-greenlight;
+  width: 100%;
+  padding: 30px 123px 21px 50px;
+  margin-top: 126px;
+  color: $clr-white;
+}
+
+.footer__sec {
+  display: flex;
+  gap: 90px;
+  text-align: end;
+}
+
+.footer__sec-logo {
+  width: 176px;
+  height: 170px;
+}
+
+.footer__sec-div {
+  display: flex;
+  gap: 90px;
+}
+
+.footer__sec-number {
+  margin: 32px 0 32px 0;
+  text-align: start;
+}
+
+.footer__sec-text {
+  font-family: Exo 2;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19.5px;
+  letter-spacing: 0.16em;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.footer__sec-btn {
+  width: 271px;
+  height: 42px;
+  top: 4629px;
+  left: 935px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 19.5px;
+  text-align: left;
+  background-color: $clr-yellow;
+  color: $clr-white;
+  padding: 7px 11px;
+  justify-content: space-between;
+  border: 0;
+
+  &:hover {
+    background-color: $clr-white;
+    color: $clr-greenlight;
+  }
+}
+
+.h {
+  display: flex;
+  gap: 97px;
+  margin-top: 50px;
+}
+
+//tablet start
+
+@media (max-width: 1096px) {
+  .footer__sec-div {
+    align-items: start;
+  }
+
+  .h {
+    text-align: center;
+  }
+
+  .footer__sec {
+    text-align: start;
+  }
+
+  .footer__sec-logo {
+    margin-left: -50px;
+  }
+}
+
+//mobile start
+@media (max-width: 1036px) {
+  .footer__sec-div {
+    display: block;
+    align-items: start;
+  }
+
+  .h {
+    text-align: center;
+  }
+
+  .footer__sec {
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__sec-logo {
+    margin-left: -50px;
+  }
+}
+
+@media (max-width: 544px) {
+  .footer__sec-logo {
+    margin-left: 30px;
+    width: 40%;
+  }
+
+  .footer__sec {
+    width: 100%;
+  }
+
+  .h {
+    width: 100%;
+  }
+
+  .res {
+    width: 100%;
+  }
+}
+
+@media (max-width: 446px) {
+  .footer__sec-text {
+    width: 100%;
+    font-family: Exo 2;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0.16em;
+    text-align: left;
+  }
+
+  .h {
+    gap: 10px;
+    margin-left: 50px;
+  }
+
+  .site-footer {
+    width: 100%;
+  }
+}

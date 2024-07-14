@@ -1,0 +1,197 @@
+.rabot-section {
+  margin: 120px 0 18px 0;
+}
+.rabot__path-text {
+  font-family: Exo 2;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: left;
+}
+.rabot__path-stext {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: $clr-grey;
+  width: 457px;
+  margin: 32px 0 56px 0;
+}
+
+.rabot__fath {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rabot__fath-sec {
+  box-shadow: 0px 4px 15px 0px #0000001f;
+}
+
+.rabot__fath-div {
+  padding: 24px 0 32px 32px;
+}
+
+.rabot__fath-text {
+  font-family: Exo 2;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+}
+
+.rabot__fath-stext {
+  font-family: PT Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: $clr-grey;
+  width: 291px;
+  height: 41px;
+  top: 2443px;
+  left: 132px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 16px 0 32px 0;
+}
+
+.rabot__fath-link {
+  font-family: Exo 2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: left;
+  border-bottom: 3px solid $clr-yellow;
+  color: $clr-black;
+  transition: all 0.4s linear;
+
+  &:hover {
+    background: $clr-yellow;
+    color: $clr-greenlight;
+  }
+}
+
+.rabot__img-tablet {
+  display: none;
+}
+
+.rabot__img-mobile {
+  display: none;
+}
+
+//tablet start
+
+@media (max-width: 1240px) {
+  .rabot__fath {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .rabot__path-text {
+    text-align: center;
+  }
+  
+  .rabot__path-stext {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 864px) {
+  .rabot__fath-img {
+    display: none;
+  }
+
+  .rabot__img-tablet {
+    display: block;
+    width: 100%;
+  }
+
+  .m {
+    display: none;
+  }
+
+  .rabot__fath-sec {
+    width: 100%;
+  }
+}
+
+//mobile start
+
+@media (max-width: 700px) {
+  .rabot__fath-img {
+    display: none;
+  }
+
+  .rabot__img-tablet {
+    display: none;
+  }
+
+  .m {
+    display: none;
+  }
+
+  .rabot__fath-sec {
+    width: 100%;
+  }
+
+  .upg {
+    display: none;
+  }
+
+  .rabot__img-mobile {
+    display: block;
+    width: 100%;
+    height: 222px;
+  }
+
+  .rabot__fath-text {
+    width: auto;
+    font-family: Exo 2;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24.3px;
+    text-align: left;
+  }
+
+  .rabot__fath-stext {
+    font-family: PT Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+  }
+
+  .rabot__fath-link {
+    font-family: Exo 2;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20.25px;
+    text-align: left;
+    
+  }
+
+  .rabot__path-text {
+    font-family: Exo 2;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: left;
+  }
+
+  .rabot__path-stext {
+    font-family: PT Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .rabot-section {
+    margin: 34px 0 18px 0;
+  }
+}
